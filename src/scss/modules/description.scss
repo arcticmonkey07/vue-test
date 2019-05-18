@@ -1,0 +1,19 @@
+.description {
+  margin-left: auto;
+  margin-right: 3px;
+  margin-bottom: 80px;
+  padding: 27px 39px 0 29px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  @include size(639px, 262px);
+  color: #7f8591;
+  background-color: #2a2d37;
+  box-sizing: border-box;
+}
+
+.description p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+

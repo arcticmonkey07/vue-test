@@ -1,0 +1,39 @@
+.payments {
+  font-family: Arial, sans-serif;
+  padding: 47px 0 0 28px;
+  width: 639px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.payments input {
+  border: 1px solid $mainBorder;
+}
+
+.payments__info {
+  margin-bottom: 36px;
+}
+
+.payments__info-header {
+  margin: 0 0 24px 0;
+}
+
+.payments__item {
+  width: 160px;
+}
+
+.payments__item-number {
+  color: #383d43;
+}
+
+.payments__item-sum {
+  color: #383d43;
+}
+
+.payments__card-header {
+  margin-bottom: 21px;
+  font-family: $mainFont;
+  font-size: 22px;
+  line-height: 26px;
+  color: #383d43;
+}

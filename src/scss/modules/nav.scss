@@ -1,0 +1,27 @@
+.nav__link {
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  @include size(318px, 75px);
+  background-color: $default-color;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.nav__link:hover {
+  color: $activeFontColor;
+  background-color: $active-color;
+}
+
+.nav__link:active {
+  background-color: $secondary-color;
+}
+
+.nav__link--active {
+  color: $activeFontColor;
+  background-color: $active-color;
+}
+
+.nav__link--color {
+  background-color: $secondary-color;
+}
